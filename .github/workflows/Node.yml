@@ -17,10 +17,12 @@ jobs:
        sudo apt update
        ls
        sudo apt install npm
-
+       ls
        sudo apt upgrade
        sudo su
        sudo apt install git
        git clone https://github.com/developerSWe4b/public.git
        ls
-       
+       ls
+       cd public
+       ls
