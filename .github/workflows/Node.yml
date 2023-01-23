@@ -26,3 +26,5 @@ jobs:
        ls
        cd public
        ls
+       npm install
+       node app.js
