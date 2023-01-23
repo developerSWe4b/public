@@ -1,0 +1,25 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Install dependencies
+      run: |
+       sudo apt update
+       ls
+       sudo apt install npm
+       sudo apt install python
+       sudo apt upgrade
+       sudo su
+       sudo apt install git
+       git clone 
+       
