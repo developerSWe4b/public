@@ -17,9 +17,10 @@ jobs:
        sudo apt update
        ls
        sudo apt install npm
-       sudo apt install python
+
        sudo apt upgrade
        sudo su
        sudo apt install git
-       git clone 
+       git clone https://github.com/developerSWe4b/public.git
+       ls
        
