@@ -21,10 +21,10 @@ jobs:
        sudo apt upgrade
        sudo su
        sudo apt install git
-       git clone https://github.com/developerSWe4b/public.git
+       git clone https://github.com/developerSWe4b/whatsapp-bot.git
        ls
        ls
-       cd public
-       ls
-       npm install
+       
+      
+       bash install.sh
        node app.js
