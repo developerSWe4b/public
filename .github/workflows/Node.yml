@@ -14,7 +14,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-       
+       sudo apt update
        ls
        sudo apt install npm
        ls
