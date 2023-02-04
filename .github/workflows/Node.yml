@@ -8,13 +8,13 @@ jobs:
 
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
 
     steps:
 
     - name: Install dependencies
       run: |
-       sudo apt update
+       
        ls
        sudo apt install npm
        ls
@@ -24,7 +24,7 @@ jobs:
        git clone https://github.com/developerSWe4b/whatsapp-bot.git
        ls
        ls
-       
+       cd whatsapp-bot
       
        bash install.sh
        node app.js
